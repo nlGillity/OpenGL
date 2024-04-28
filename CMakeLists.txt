@@ -5,4 +5,5 @@ add_executable(App main.cpp)
 
 add_subdirectory(libs/glfw)
 add_subdirectory(libs/glad)
-target_link_libraries(App glfw glad)
+add_subdirectory(libs/glm)
+target_link_libraries(App glfw glad glm::glm)

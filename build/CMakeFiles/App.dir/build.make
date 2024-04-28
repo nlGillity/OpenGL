@@ -94,6 +94,7 @@ App: CMakeFiles/App.dir/main.cpp.o
 App: CMakeFiles/App.dir/build.make
 App: libs/glfw/src/libglfw3.a
 App: libs/glad/libglad.a
+App: libs/glm/glm/libglm.a
 App: /usr/lib/x86_64-linux-gnu/librt.a
 App: /usr/lib/x86_64-linux-gnu/libm.so
 App: CMakeFiles/App.dir/link.txt

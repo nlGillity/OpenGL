@@ -18,6 +18,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../libs/glfw/CMakeLists.txt"
   "../libs/glfw/docs/CMakeLists.txt"
   "../libs/glfw/src/CMakeLists.txt"
+  "../libs/glm/CMakeLists.txt"
+  "../libs/glm/glm/CMakeLists.txt"
   "/usr/share/cmake-3.22/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
@@ -74,6 +76,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "libs/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "libs/glfw/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "libs/glad/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "libs/glm/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "libs/glm/glm/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -83,4 +87,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "libs/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "libs/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
   "libs/glad/CMakeFiles/glad.dir/DependInfo.cmake"
+  "libs/glm/glm/CMakeFiles/glm.dir/DependInfo.cmake"
   )

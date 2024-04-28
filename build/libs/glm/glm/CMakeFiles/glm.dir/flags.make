@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/space/Projects/OpenGL/libs/glfw/include -I/home/space/Projects/OpenGL/libs/glad/include -I/home/space/Projects/OpenGL/libs/glm
+CXX_INCLUDES = -I/home/space/Projects/OpenGL/libs/glm
 
 CXX_FLAGS = 
 
