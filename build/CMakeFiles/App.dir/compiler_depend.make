@@ -305,7 +305,61 @@ CMakeFiles/App.dir/main.cpp.o: ../main.cpp \
   ../libs/glm/glm/detail/type_half.inl \
   ../libs/glm/glm/integer.hpp \
   ../libs/glm/glm/detail/func_integer.inl \
+  ../libs/glm/glm/gtc/matrix_transform.hpp \
+  ../libs/glm/glm/ext/matrix_projection.hpp \
+  ../libs/glm/glm/gtc/constants.hpp \
+  ../libs/glm/glm/ext/scalar_constants.hpp \
+  ../libs/glm/glm/detail/setup.hpp \
+  ../libs/glm/glm/ext/scalar_constants.inl \
+  ../libs/glm/glm/gtc/constants.inl \
+  ../libs/glm/glm/ext/matrix_projection.inl \
+  ../libs/glm/glm/ext/matrix_clip_space.hpp \
+  ../libs/glm/glm/ext/matrix_clip_space.inl \
+  ../libs/glm/glm/ext/matrix_transform.hpp \
+  ../libs/glm/glm/ext/matrix_transform.inl \
+  ../libs/glm/glm/gtc/matrix_transform.inl \
   ../shader.h \
+  ../libs/glm/glm/gtc/type_ptr.hpp \
+  ../libs/glm/glm/gtc/quaternion.hpp \
+  ../libs/glm/glm/ext/vector_relational.hpp \
+  ../libs/glm/glm/ext/vector_relational.inl \
+  ../libs/glm/glm/detail/type_float.hpp \
+  ../libs/glm/glm/detail/setup.hpp \
+  ../libs/glm/glm/ext/quaternion_common.hpp \
+  ../libs/glm/glm/ext/quaternion_geometric.hpp \
+  ../libs/glm/glm/ext/quaternion_geometric.inl \
+  ../libs/glm/glm/ext/quaternion_common.inl \
+  ../libs/glm/glm/ext/quaternion_float.hpp \
+  ../libs/glm/glm/detail/type_quat.hpp \
+  ../libs/glm/glm/ext/quaternion_relational.hpp \
+  ../libs/glm/glm/ext/quaternion_relational.inl \
+  ../libs/glm/glm/detail/type_quat.inl \
+  ../libs/glm/glm/ext/quaternion_float_precision.hpp \
+  ../libs/glm/glm/ext/quaternion_double.hpp \
+  ../libs/glm/glm/ext/quaternion_double_precision.hpp \
+  ../libs/glm/glm/ext/quaternion_trigonometric.hpp \
+  ../libs/glm/glm/ext/quaternion_trigonometric.inl \
+  ../libs/glm/glm/ext/quaternion_transform.hpp \
+  ../libs/glm/glm/ext/quaternion_transform.inl \
+  ../libs/glm/glm/gtc/quaternion.inl \
+  ../libs/glm/glm/gtc/epsilon.hpp \
+  ../libs/glm/glm/detail/setup.hpp \
+  ../libs/glm/glm/gtc/epsilon.inl \
+  ../libs/glm/glm/gtc/vec1.hpp \
+  ../libs/glm/glm/ext/vector_bool1.hpp \
+  ../libs/glm/glm/ext/vector_bool1_precision.hpp \
+  ../libs/glm/glm/ext/vector_float1.hpp \
+  ../libs/glm/glm/ext/vector_float1_precision.hpp \
+  ../libs/glm/glm/ext/vector_double1.hpp \
+  ../libs/glm/glm/ext/vector_double1_precision.hpp \
+  ../libs/glm/glm/ext/vector_int1.hpp \
+  ../libs/glm/glm/ext/vector_int1_sized.hpp \
+  ../libs/glm/glm/ext/vector_uint1.hpp \
+  ../libs/glm/glm/ext/vector_uint1_sized.hpp \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  ../libs/glm/glm/gtc/type_ptr.inl \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
@@ -704,6 +758,60 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
   ../libs/glm/glm/detail/type_half.inl \
   ../libs/glm/glm/integer.hpp \
   ../libs/glm/glm/detail/func_integer.inl \
+  ../libs/glm/glm/gtc/type_ptr.hpp \
+  ../libs/glm/glm/gtc/quaternion.hpp \
+  ../libs/glm/glm/gtc/constants.hpp \
+  ../libs/glm/glm/ext/scalar_constants.hpp \
+  ../libs/glm/glm/detail/setup.hpp \
+  ../libs/glm/glm/ext/scalar_constants.inl \
+  ../libs/glm/glm/gtc/constants.inl \
+  ../libs/glm/glm/gtc/matrix_transform.hpp \
+  ../libs/glm/glm/ext/matrix_projection.hpp \
+  ../libs/glm/glm/ext/matrix_projection.inl \
+  ../libs/glm/glm/ext/matrix_clip_space.hpp \
+  ../libs/glm/glm/ext/matrix_clip_space.inl \
+  ../libs/glm/glm/ext/matrix_transform.hpp \
+  ../libs/glm/glm/ext/matrix_transform.inl \
+  ../libs/glm/glm/gtc/matrix_transform.inl \
+  ../libs/glm/glm/ext/vector_relational.hpp \
+  ../libs/glm/glm/ext/vector_relational.inl \
+  ../libs/glm/glm/detail/type_float.hpp \
+  ../libs/glm/glm/detail/setup.hpp \
+  ../libs/glm/glm/ext/quaternion_common.hpp \
+  ../libs/glm/glm/ext/quaternion_geometric.hpp \
+  ../libs/glm/glm/ext/quaternion_geometric.inl \
+  ../libs/glm/glm/ext/quaternion_common.inl \
+  ../libs/glm/glm/ext/quaternion_float.hpp \
+  ../libs/glm/glm/detail/type_quat.hpp \
+  ../libs/glm/glm/ext/quaternion_relational.hpp \
+  ../libs/glm/glm/ext/quaternion_relational.inl \
+  ../libs/glm/glm/detail/type_quat.inl \
+  ../libs/glm/glm/ext/quaternion_float_precision.hpp \
+  ../libs/glm/glm/ext/quaternion_double.hpp \
+  ../libs/glm/glm/ext/quaternion_double_precision.hpp \
+  ../libs/glm/glm/ext/quaternion_trigonometric.hpp \
+  ../libs/glm/glm/ext/quaternion_trigonometric.inl \
+  ../libs/glm/glm/ext/quaternion_transform.hpp \
+  ../libs/glm/glm/ext/quaternion_transform.inl \
+  ../libs/glm/glm/gtc/quaternion.inl \
+  ../libs/glm/glm/gtc/epsilon.hpp \
+  ../libs/glm/glm/detail/setup.hpp \
+  ../libs/glm/glm/gtc/epsilon.inl \
+  ../libs/glm/glm/gtc/vec1.hpp \
+  ../libs/glm/glm/ext/vector_bool1.hpp \
+  ../libs/glm/glm/ext/vector_bool1_precision.hpp \
+  ../libs/glm/glm/ext/vector_float1.hpp \
+  ../libs/glm/glm/ext/vector_float1_precision.hpp \
+  ../libs/glm/glm/ext/vector_double1.hpp \
+  ../libs/glm/glm/ext/vector_double1_precision.hpp \
+  ../libs/glm/glm/ext/vector_int1.hpp \
+  ../libs/glm/glm/ext/vector_int1_sized.hpp \
+  ../libs/glm/glm/ext/vector_uint1.hpp \
+  ../libs/glm/glm/ext/vector_uint1_sized.hpp \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  ../libs/glm/glm/gtc/type_ptr.inl \
   ../libs/glad/include/glad/glad.h \
   ../libs/glad/include/KHR/khrplatform.h \
   /usr/include/c++/11/iostream \
@@ -805,8 +913,6 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 
 ../shader.cpp:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
-
 /usr/include/c++/11/fstream:
 
 /usr/include/c++/11/sstream:
@@ -823,8 +929,6 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 
 /usr/include/c++/11/cwctype:
 
-/usr/include/c++/11/bits/streambuf.tcc:
-
 /usr/include/c++/11/streambuf:
 
 /usr/include/c++/11/stdexcept:
@@ -838,8 +942,6 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/asm-generic/errno-base.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/errno.h:
 
@@ -887,8 +989,6 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 
 /usr/include/c++/11/cctype:
 
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
 /usr/include/locale.h:
 
 /usr/include/c++/11/clocale:
@@ -917,7 +1017,71 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 
 /usr/include/c++/11/ostream:
 
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+../libs/glm/glm/gtc/type_ptr.inl:
+
+/usr/include/strings.h:
+
+/usr/include/c++/11/bits/streambuf.tcc:
+
+/usr/include/string.h:
+
+../libs/glm/glm/ext/vector_uint1.hpp:
+
+../libs/glm/glm/ext/vector_int1_sized.hpp:
+
+../libs/glm/glm/ext/vector_int1.hpp:
+
+../libs/glm/glm/ext/vector_double1.hpp:
+
+../libs/glm/glm/gtc/vec1.hpp:
+
+../libs/glm/glm/gtc/epsilon.inl:
+
+../libs/glm/glm/gtc/epsilon.hpp:
+
+../libs/glm/glm/ext/quaternion_transform.inl:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+../libs/glm/glm/ext/quaternion_trigonometric.hpp:
+
+../libs/glm/glm/ext/quaternion_double_precision.hpp:
+
+../libs/glm/glm/ext/quaternion_double.hpp:
+
+../libs/glm/glm/detail/type_quat.inl:
+
+../libs/glm/glm/ext/quaternion_relational.inl:
+
+../libs/glm/glm/detail/type_quat.hpp:
+
+../libs/glm/glm/ext/quaternion_common.inl:
+
+../libs/glm/glm/ext/quaternion_geometric.inl:
+
+../libs/glm/glm/ext/quaternion_geometric.hpp:
+
+../libs/glm/glm/ext/quaternion_common.hpp:
+
+../libs/glm/glm/ext/vector_relational.hpp:
+
+../libs/glm/glm/gtc/type_ptr.hpp:
+
 ../shader.h:
+
+../libs/glm/glm/gtc/matrix_transform.inl:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
+
+../libs/glm/glm/gtc/constants.inl:
+
+../libs/glm/glm/ext/matrix_transform.hpp:
+
+../libs/glm/glm/ext/scalar_constants.hpp:
+
+../libs/glm/glm/gtc/matrix_transform.hpp:
 
 /usr/include/c++/11/cerrno:
 
@@ -926,6 +1090,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 ../libs/glm/glm/detail/func_integer.inl:
 
 ../libs/glm/glm/integer.hpp:
+
+../libs/glm/glm/ext/matrix_transform.inl:
 
 ../libs/glm/glm/packing.hpp:
 
@@ -975,6 +1141,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 
 ../libs/glm/glm/mat4x3.hpp:
 
+../libs/glm/glm/ext/vector_relational.inl:
+
 ../libs/glm/glm/ext/matrix_float4x2_precision.hpp:
 
 ../libs/glm/glm/ext/matrix_double4x2_precision.hpp:
@@ -995,7 +1163,11 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
+../libs/glm/glm/ext/vector_double1_precision.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+../libs/glm/glm/ext/vector_bool1.hpp:
 
 ../libs/glm/glm/detail/type_mat4x2.inl:
 
@@ -1059,6 +1231,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 
 /usr/include/c++/11/tuple:
 
+../libs/glm/glm/gtc/quaternion.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/c++/11/bits/stl_pair.h:
@@ -1087,6 +1261,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
+../libs/glm/glm/gtc/quaternion.inl:
+
 /usr/include/c++/11/backward/binders.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
@@ -1109,6 +1285,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 
 /usr/include/features-time64.h:
 
+../libs/glm/glm/ext/scalar_constants.inl:
+
 /usr/include/c++/11/cfloat:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
@@ -1123,6 +1301,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
+/usr/include/c++/11/cstring:
+
 /usr/include/math.h:
 
 ../libs/glm/glm/detail/type_mat2x2.hpp:
@@ -1136,6 +1316,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 /usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+../libs/glm/glm/ext/quaternion_transform.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
@@ -1153,6 +1335,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 
 ../libs/glm/glm/detail/_vectorize.hpp:
 
+../libs/glm/glm/gtc/constants.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
@@ -1166,6 +1350,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 ../libs/glm/glm/ext/vector_int4_sized.hpp:
 
 /usr/include/c++/11/string:
+
+../libs/glm/glm/ext/quaternion_float.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
@@ -1221,6 +1407,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 
 ../libs/glm/glm/ext/matrix_double3x2.hpp:
 
+../libs/glm/glm/ext/vector_float1.hpp:
+
 /usr/include/c++/11/bits/range_access.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
@@ -1243,6 +1431,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
+../libs/glm/glm/ext/matrix_projection.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
@@ -1256,6 +1446,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 ../libs/glm/glm/ext/vector_float3_precision.hpp:
 
 ../main.cpp:
+
+../libs/glm/glm/ext/quaternion_float_precision.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
@@ -1325,6 +1517,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
+../libs/glm/glm/ext/quaternion_trigonometric.inl:
+
 ../libs/glm/glm/ext/vector_int2.hpp:
 
 ../libs/glm/glm/ext/vector_int2_sized.hpp:
@@ -1332,6 +1526,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 ../libs/glm/glm/ext/scalar_int_sized.hpp:
 
 ../libs/glm/glm/ext/vector_uint3_sized.hpp:
+
+../libs/glm/glm/ext/vector_uint1_sized.hpp:
 
 ../libs/glm/glm/ext/vector_uint2_sized.hpp:
 
@@ -1350,6 +1546,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 ../libs/glm/glm/detail/compute_vector_decl.hpp:
 
 /usr/include/linux/errno.h:
+
+../libs/glm/glm/detail/type_float.hpp:
 
 /usr/include/c++/11/functional:
 
@@ -1393,6 +1591,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 
 /usr/include/c++/11/unordered_map:
 
+../libs/glm/glm/ext/matrix_clip_space.inl:
+
 /usr/include/c++/11/bits/stl_function.h:
 
 /usr/include/c++/11/bits/memoryfwd.h:
@@ -1404,6 +1604,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/11/bits/alloc_traits.h:
+
+../libs/glm/glm/ext/vector_float1_precision.hpp:
 
 /usr/include/c++/11/bits/hashtable_policy.h:
 
@@ -1439,6 +1641,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 
 /usr/include/c++/11/bits/erase_if.h:
 
+../libs/glm/glm/ext/quaternion_relational.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 ../libs/glm/glm/detail/compute_common.hpp:
@@ -1455,6 +1659,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
+../libs/glm/glm/ext/matrix_clip_space.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/c++/11/bits/stl_bvector.h:
@@ -1468,6 +1674,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 ../libs/glm/glm/matrix.hpp:
 
 /usr/include/c++/11/bits/stl_heap.h:
+
+../libs/glm/glm/ext/vector_bool1_precision.hpp:
 
 /usr/include/c++/11/bits/std_function.h:
 
@@ -1572,6 +1780,8 @@ CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp \
 ../libs/glm/glm/mat3x3.hpp:
 
 ../libs/glm/glm/detail/func_common.inl:
+
+../libs/glm/glm/ext/matrix_projection.inl:
 
 ../libs/glm/glm/vector_relational.hpp:
 

@@ -1,6 +1,7 @@
 #pragma once
 
 #include <glm/glm.hpp>
+#include <glm/gtc/type_ptr.hpp>
 
 #include <glad/glad.h>
 #include <iostream>
@@ -51,11 +52,11 @@ class Shader {
             string tName = typeid(value).name();
     
             if (tName == typeid(glm::mat2).name())
-                glUniformMatrix2fv(location, 1, GL_FALSE, &value[0][0]);
+                glUniformMatrix2fv(location, 1, GL_FALSE, glm::value_ptr(value));
             else if (tName == typeid(glm::mat3).name())
-                glUniformMatrix3fv(location, 1, GL_FALSE, &value[0][0]);
-            else if (tName == typeid(glm::mat4).name())
-                glUniformMatrix4fv(location, 1, GL_FALSE, &value[0][0]);
+                glUniformMatrix3fv(location, 1, GL_FALSE, glm::value_ptr(value));
+            else if (tName == typeid(glm::mat4).name()) 
+                glUniformMatrix4fv(location, 1, GL_FALSE, glm::value_ptr(value));
             else
                 cout << "ERROR (UNIFORM): Failed to recognize uniform mat type" << endl;
         }

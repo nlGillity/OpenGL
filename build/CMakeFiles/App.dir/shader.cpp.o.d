@@ -276,6 +276,58 @@ CMakeFiles/App.dir/shader.cpp.o: /home/space/Projects/OpenGL/shader.cpp \
  /home/space/Projects/OpenGL/libs/glm/glm/detail/type_half.inl \
  /home/space/Projects/OpenGL/libs/glm/glm/integer.hpp \
  /home/space/Projects/OpenGL/libs/glm/glm/detail/func_integer.inl \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/type_ptr.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/quaternion.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../gtc/constants.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../gtc/../ext/scalar_constants.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../gtc/../ext/../detail/setup.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../gtc/../ext/scalar_constants.inl \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../gtc/constants.inl \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../gtc/matrix_transform.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../gtc/../ext/matrix_projection.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../gtc/../ext/matrix_projection.inl \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../gtc/../ext/matrix_clip_space.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../gtc/../ext/matrix_clip_space.inl \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../gtc/../ext/matrix_transform.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../gtc/../ext/matrix_transform.inl \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../gtc/matrix_transform.inl \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/vector_relational.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/vector_relational.inl \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/../detail/type_float.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/../detail/setup.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/quaternion_common.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/../ext/quaternion_geometric.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/../ext/quaternion_geometric.inl \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/quaternion_common.inl \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/quaternion_float.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/../detail/type_quat.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/../detail/../ext/quaternion_relational.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/../detail/../ext/quaternion_relational.inl \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/../detail/type_quat.inl \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/quaternion_float_precision.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/quaternion_double.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/quaternion_double_precision.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/quaternion_trigonometric.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/quaternion_trigonometric.inl \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/quaternion_transform.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/quaternion_transform.inl \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/quaternion.inl \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/epsilon.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../detail/setup.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/epsilon.inl \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/vec1.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/vector_bool1.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/vector_bool1_precision.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/vector_float1.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/vector_float1_precision.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/vector_double1.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/vector_double1_precision.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/vector_int1.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/vector_int1_sized.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/vector_uint1.hpp \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/../gtc/../ext/vector_uint1_sized.hpp \
+ /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
+ /home/space/Projects/OpenGL/libs/glm/glm/gtc/type_ptr.inl \
  /home/space/Projects/OpenGL/libs/glad/include/glad/glad.h \
  /home/space/Projects/OpenGL/libs/glad/include/KHR/khrplatform.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
