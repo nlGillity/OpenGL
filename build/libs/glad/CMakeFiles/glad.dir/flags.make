@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/space/Projects/OpenGL/libs/glad/include
 
-C_FLAGS = 
+C_FLAGS = -g
 

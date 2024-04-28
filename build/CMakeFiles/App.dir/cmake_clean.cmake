@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "App.pdb"
   "CMakeFiles/App.dir/main.cpp.o"
   "CMakeFiles/App.dir/main.cpp.o.d"
+  "CMakeFiles/App.dir/shader.cpp.o"
+  "CMakeFiles/App.dir/shader.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
