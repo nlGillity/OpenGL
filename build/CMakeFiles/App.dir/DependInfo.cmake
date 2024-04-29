@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/space/Projects/OpenGL/main.cpp" "CMakeFiles/App.dir/main.cpp.o" "gcc" "CMakeFiles/App.dir/main.cpp.o.d"
+  "/home/space/Projects/OpenGL/primitives.cpp" "CMakeFiles/App.dir/primitives.cpp.o" "gcc" "CMakeFiles/App.dir/primitives.cpp.o.d"
   "/home/space/Projects/OpenGL/shader.cpp" "CMakeFiles/App.dir/shader.cpp.o" "gcc" "CMakeFiles/App.dir/shader.cpp.o.d"
   )
 

@@ -3,6 +3,7 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include "shader.h"
+#include "primitives.h"
 #include <iostream>
 using namespace glm;
 using namespace std;
@@ -42,45 +43,14 @@ int main() {
     }
 
     Shader myShader("shaders/vertex.vert", "shaders/fragment.frag");
-
-    vec3 pos[] = {
-        vec3(-0.5f, -0.5f, 0.0f),
-        vec3( 0.5f, -0.5f, 0.0f),
-        vec3( 0.0f,  0.5f, 0.0f)
-    };
-
     vec3 color[] = {
         vec3(1.0f, 0.0f, 0.0f),
         vec3(0.0f, 1.0f, 0.0f),
         vec3(0.0f, 0.0f, 1.0f)
     };
-
-    vec3 vertices[6];
-
-    GLuint k = 0;
-    for (int i  = 0; i < 3; i++) {
-        vertices[k++] = pos[i];
-        vertices[k++] = color[i];
-    }
-
-    GLuint VAO, VBO;
-    glGenVertexArrays(1, &VAO);
-    glGenBuffers(1, &VBO);
-
-    glBindVertexArray(VAO);
-
-    glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
-    glEnableVertexAttribArray(0);
-    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3*sizeof(float)));
-    glEnableVertexAttribArray(1);
-
-    glBindBuffer(GL_ARRAY_BUFFER, 0);
-    glBindVertexArray(0);
+    Triangle myTriangle(vec3(0.0, 0.0, 0.0), color);
 
     myShader.Use();
-
     while(!glfwWindowShouldClose(window)) {
         glClearColor(0.0, 0.0, 0.0, 1.0);
         glClear(GL_COLOR_BUFFER_BIT);
@@ -89,15 +59,11 @@ int main() {
         transform = glm::rotate(transform, (float)glfwGetTime(), glm::vec3(0.0f, 1.0f, 0.0f));
         myShader.SetUniformMat("trans", transform);
 
-        glBindVertexArray(VAO);
-        glDrawArrays(GL_TRIANGLES, 0, 3);
+        myTriangle.Draw();
 
         glfwPollEvents();
         glfwSwapBuffers(window);
     }
-
-    glDeleteVertexArrays(1, &VAO);
-    glDeleteBuffers(1, &VBO);
 
     glfwTerminate();
     return 0;
@@ -108,6 +74,6 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
 }
 
 void key_callback(GLFWwindow* window, int key, int scanmode, int actions, int mods) {
-    if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
+    if (glfwGetKey(window, GLFW_KEY_Q) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
 }

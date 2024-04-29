@@ -263,6 +263,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+primitives.o: primitives.cpp.o
+.PHONY : primitives.o
+
+# target to build an object file
+primitives.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/primitives.cpp.o
+.PHONY : primitives.cpp.o
+
+primitives.i: primitives.cpp.i
+.PHONY : primitives.i
+
+# target to preprocess a source file
+primitives.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/primitives.cpp.i
+.PHONY : primitives.cpp.i
+
+primitives.s: primitives.cpp.s
+.PHONY : primitives.s
+
+# target to generate assembly for a file
+primitives.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/primitives.cpp.s
+.PHONY : primitives.cpp.s
+
 shader.o: shader.cpp.o
 .PHONY : shader.o
 
@@ -308,6 +332,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... primitives.o"
+	@echo "... primitives.i"
+	@echo "... primitives.s"
 	@echo "... shader.o"
 	@echo "... shader.i"
 	@echo "... shader.s"

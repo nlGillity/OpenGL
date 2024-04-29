@@ -10,6 +10,11 @@
   "file": "/home/space/Projects/OpenGL/shader.cpp"
 },
 {
+  "directory": "/home/space/Projects/OpenGL/build",
+  "command": "/usr/bin/g++  -I/home/space/Projects/OpenGL/libs/glfw/include -I/home/space/Projects/OpenGL/libs/glad/include -I/home/space/Projects/OpenGL/libs/glm -g -o CMakeFiles/App.dir/primitives.cpp.o -c /home/space/Projects/OpenGL/primitives.cpp",
+  "file": "/home/space/Projects/OpenGL/primitives.cpp"
+},
+{
   "directory": "/home/space/Projects/OpenGL/build/libs/glfw/src",
   "command": "/usr/bin/gcc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/space/Projects/OpenGL/libs/glfw/include -I/home/space/Projects/OpenGL/libs/glfw/src -I/home/space/Projects/OpenGL/build/libs/glfw/src -g -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/context.c.o -c /home/space/Projects/OpenGL/libs/glfw/src/context.c",
   "file": "/home/space/Projects/OpenGL/libs/glfw/src/context.c"
