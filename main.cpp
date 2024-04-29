@@ -43,12 +43,25 @@ int main() {
 
     Shader myShader("shaders/vertex.vert", "shaders/fragment.frag");
 
-    GLfloat vertices[] = {
-        // Cords                // Colors
-        -0.5f, -0.5f, 0.0f,     1.0f, 0.0f, 0.0f,
-         0.5f, -0.5f, 0.0f,     0.0f, 1.0f, 0.0f,
-         0.0f,  0.5f, 0.0f,     0.0f, 0.0f, 1.0f
+    vec3 pos[] = {
+        vec3(-0.5f, -0.5f, 0.0f),
+        vec3( 0.5f, -0.5f, 0.0f),
+        vec3( 0.0f,  0.5f, 0.0f)
     };
+
+    vec3 color[] = {
+        vec3(1.0f, 0.0f, 0.0f),
+        vec3(0.0f, 1.0f, 0.0f),
+        vec3(0.0f, 0.0f, 1.0f)
+    };
+
+    vec3 vertices[6];
+
+    GLuint k = 0;
+    for (int i  = 0; i < 3; i++) {
+        vertices[k++] = pos[i];
+        vertices[k++] = color[i];
+    }
 
     GLuint VAO, VBO;
     glGenVertexArrays(1, &VAO);
