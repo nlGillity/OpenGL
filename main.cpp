@@ -4,6 +4,7 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include "shader.h"
 #include "primitives.h"
+#include <vector>
 #include <iostream>
 using namespace glm;
 using namespace std;
@@ -43,21 +44,53 @@ int main() {
     }
 
     Shader myShader("shaders/vertex.vert", "shaders/fragment.frag");
-    vec3 color[] = {
-        vec3(1.0f, 0.0f, 0.0f),
-        vec3(0.0f, 1.0f, 0.0f),
-        vec3(0.0f, 0.0f, 1.0f)
+
+    // vec3* cube_shape = new vec3[8] {
+    //     vec3(-0.5, -0.5,  0.5),
+    //     vec3( 0.5, -0.5,  0.5),
+    //     vec3( 0.5,  0.5,  0.5),
+    //     vec3(-0.5,  0.5,  0.5),
+    // //  -----------------------
+    //     vec3(-0.5,  0.5, -0.5),
+    //     vec3(-0.5, -0.5, -0.5),
+    //     vec3( 0.5, -0.5, -0.5),
+    //     vec3( 0.5,  0.5, -0.5)
+    // };
+
+    // vec3* cube3_color = new vec3[8] {
+    //     vec3(1.0, 0.0, 0.0),
+    //     vec3(0.0, 1.0, 0.0),
+    //     vec3(0.0, 0.0, 1.0),
+    //     vec3(1.0, 0.25, 0.0),
+    // //  -----------------------
+    //     vec3(1.0,  0.5,  0.25),
+    //     vec3(1.0,  0.75, 0.5),
+    //     vec3(1.0,  1.0,  0.75),
+    //     vec3(1.0,  1.0,  1.0)
+    // };
+
+    vec3* triangle_shape = new vec3[3] {
+        vec3(-0.5, -0.5, 0.0),
+        vec3(0.5, -0.5, 0.0),
+        vec3(0.0, 0.5, 0.0)
     };
-    Triangle myTriangle(vec3(0.0, 0.0, 0.0), color);
+    vec3* triangle_color = new vec3[3] {
+        vec3(1.0, 0.0, 0.0),
+        vec3(0.0, 1.0, 0.0),
+        vec3(0.0, 0.0, 1.0)
+    };
+
+    Primitive myTriangle(3, triangle_shape, triangle_color, vec3(0.0, 0.0, 0.0));
+    myTriangle.Rotate(45.0f, vec3(0.0, 0.0, 1.0));
+    myTriangle.CommitTransform();
 
     myShader.Use();
     while(!glfwWindowShouldClose(window)) {
         glClearColor(0.0, 0.0, 0.0, 1.0);
         glClear(GL_COLOR_BUFFER_BIT);
 
-        glm::mat4 transform = glm::mat4(1.0f);
-        transform = glm::rotate(transform, (float)glfwGetTime(), glm::vec3(0.0f, 1.0f, 0.0f));
-        myShader.SetUniformMat("trans", transform);
+        myTriangle.Rotate((float)glfwGetTime(), vec3(0.0f, 1.0f, 0.0f));
+        myShader.SetUniformMat("trans", *myTriangle.GetTransform());
 
         myTriangle.Draw();
 
