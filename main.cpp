@@ -98,6 +98,7 @@ int main() {
 
         myTriangle.Rotate((float)glfwGetTime(), vec3(0.0f, 1.0f, 0.0f));
         myShader.SetUniformMat("trans", *myTriangle.GetTransform());
+        myShader.SetUniform("time", (float)glfwGetTime());
 
         myTriangle.Draw();
 
