@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/space/Projects/OpenGL
+CMAKE_SOURCE_DIR = /home/entropy/Projects/OpenGL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/space/Projects/OpenGL/build
+CMAKE_BINARY_DIR = /home/entropy/Projects/OpenGL/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/App.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/App.dir/flags.make
 CMakeFiles/App.dir/main.cpp.o: CMakeFiles/App.dir/flags.make
 CMakeFiles/App.dir/main.cpp.o: ../main.cpp
 CMakeFiles/App.dir/main.cpp.o: CMakeFiles/App.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/space/Projects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/App.dir/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/App.dir/main.cpp.o -MF CMakeFiles/App.dir/main.cpp.o.d -o CMakeFiles/App.dir/main.cpp.o -c /home/space/Projects/OpenGL/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/entropy/Projects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/App.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/App.dir/main.cpp.o -MF CMakeFiles/App.dir/main.cpp.o.d -o CMakeFiles/App.dir/main.cpp.o -c /home/entropy/Projects/OpenGL/main.cpp
 
 CMakeFiles/App.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/App.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/space/Projects/OpenGL/main.cpp > CMakeFiles/App.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/entropy/Projects/OpenGL/main.cpp > CMakeFiles/App.dir/main.cpp.i
 
 CMakeFiles/App.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/App.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/space/Projects/OpenGL/main.cpp -o CMakeFiles/App.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/entropy/Projects/OpenGL/main.cpp -o CMakeFiles/App.dir/main.cpp.s
 
 CMakeFiles/App.dir/shader.cpp.o: CMakeFiles/App.dir/flags.make
 CMakeFiles/App.dir/shader.cpp.o: ../shader.cpp
 CMakeFiles/App.dir/shader.cpp.o: CMakeFiles/App.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/space/Projects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/App.dir/shader.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/App.dir/shader.cpp.o -MF CMakeFiles/App.dir/shader.cpp.o.d -o CMakeFiles/App.dir/shader.cpp.o -c /home/space/Projects/OpenGL/shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/entropy/Projects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/App.dir/shader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/App.dir/shader.cpp.o -MF CMakeFiles/App.dir/shader.cpp.o.d -o CMakeFiles/App.dir/shader.cpp.o -c /home/entropy/Projects/OpenGL/shader.cpp
 
 CMakeFiles/App.dir/shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/App.dir/shader.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/space/Projects/OpenGL/shader.cpp > CMakeFiles/App.dir/shader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/entropy/Projects/OpenGL/shader.cpp > CMakeFiles/App.dir/shader.cpp.i
 
 CMakeFiles/App.dir/shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/App.dir/shader.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/space/Projects/OpenGL/shader.cpp -o CMakeFiles/App.dir/shader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/entropy/Projects/OpenGL/shader.cpp -o CMakeFiles/App.dir/shader.cpp.s
 
 CMakeFiles/App.dir/primitives.cpp.o: CMakeFiles/App.dir/flags.make
 CMakeFiles/App.dir/primitives.cpp.o: ../primitives.cpp
 CMakeFiles/App.dir/primitives.cpp.o: CMakeFiles/App.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/space/Projects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/App.dir/primitives.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/App.dir/primitives.cpp.o -MF CMakeFiles/App.dir/primitives.cpp.o.d -o CMakeFiles/App.dir/primitives.cpp.o -c /home/space/Projects/OpenGL/primitives.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/entropy/Projects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/App.dir/primitives.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/App.dir/primitives.cpp.o -MF CMakeFiles/App.dir/primitives.cpp.o.d -o CMakeFiles/App.dir/primitives.cpp.o -c /home/entropy/Projects/OpenGL/primitives.cpp
 
 CMakeFiles/App.dir/primitives.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/App.dir/primitives.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/space/Projects/OpenGL/primitives.cpp > CMakeFiles/App.dir/primitives.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/entropy/Projects/OpenGL/primitives.cpp > CMakeFiles/App.dir/primitives.cpp.i
 
 CMakeFiles/App.dir/primitives.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/App.dir/primitives.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/space/Projects/OpenGL/primitives.cpp -o CMakeFiles/App.dir/primitives.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/entropy/Projects/OpenGL/primitives.cpp -o CMakeFiles/App.dir/primitives.cpp.s
 
 # Object files for target App
 App_OBJECTS = \
@@ -130,7 +130,7 @@ App: libs/glm/glm/libglm.a
 App: /usr/lib/x86_64-linux-gnu/librt.a
 App: /usr/lib/x86_64-linux-gnu/libm.so
 App: CMakeFiles/App.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/space/Projects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable App"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/entropy/Projects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable App"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/App.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -142,6 +142,6 @@ CMakeFiles/App.dir/clean:
 .PHONY : CMakeFiles/App.dir/clean
 
 CMakeFiles/App.dir/depend:
-	cd /home/space/Projects/OpenGL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/space/Projects/OpenGL /home/space/Projects/OpenGL /home/space/Projects/OpenGL/build /home/space/Projects/OpenGL/build /home/space/Projects/OpenGL/build/CMakeFiles/App.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/entropy/Projects/OpenGL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/entropy/Projects/OpenGL /home/entropy/Projects/OpenGL /home/entropy/Projects/OpenGL/build /home/entropy/Projects/OpenGL/build /home/entropy/Projects/OpenGL/build/CMakeFiles/App.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/App.dir/depend
 

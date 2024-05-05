@@ -1,4 +1,4 @@
-# Install script for directory: /home/space/Projects/OpenGL
+# Install script for directory: /home/entropy/Projects/OpenGL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -44,9 +44,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/space/Projects/OpenGL/build/libs/glfw/cmake_install.cmake")
-  include("/home/space/Projects/OpenGL/build/libs/glad/cmake_install.cmake")
-  include("/home/space/Projects/OpenGL/build/libs/glm/cmake_install.cmake")
+  include("/home/entropy/Projects/OpenGL/build/libs/glfw/cmake_install.cmake")
+  include("/home/entropy/Projects/OpenGL/build/libs/glad/cmake_install.cmake")
+  include("/home/entropy/Projects/OpenGL/build/libs/glm/cmake_install.cmake")
 
 endif()
 
@@ -58,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/space/Projects/OpenGL/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/entropy/Projects/OpenGL/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

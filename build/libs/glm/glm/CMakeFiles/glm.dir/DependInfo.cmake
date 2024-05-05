@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/space/Projects/OpenGL/libs/glm/glm/detail/glm.cpp" "libs/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.o" "gcc" "libs/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.o.d"
+  "/home/entropy/Projects/OpenGL/libs/glm/glm/detail/glm.cpp" "libs/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.o" "gcc" "libs/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.o.d"
   )
 
 # Targets to which this target links.

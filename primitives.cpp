@@ -74,7 +74,7 @@ void Primitive::createVAO() {
 }
 
 Primitive::~Primitive() {
-    delete [] vertices, indices;
+    delete [] vertices;
 
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
