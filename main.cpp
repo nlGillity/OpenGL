@@ -45,50 +45,12 @@ int main() {
 
     Shader myShader("shaders/vertex.vert", "shaders/fragment.frag");
 
-    vec3* cube_shape = new vec3[8] {
-        vec3(-0.5, -0.5,  0.5),
-        vec3( 0.5, -0.5,  0.5),
-        vec3( 0.5,  0.5,  0.5),
-        vec3(-0.5,  0.5,  0.5),
-    //  -----------------------
-        vec3(-0.5,  0.5, -0.5),
-        vec3(-0.5, -0.5, -0.5),
-        vec3( 0.5, -0.5, -0.5),
-        vec3( 0.5,  0.5, -0.5)
-    };
-
-    vec3* cube_color = new vec3[8] {
-        vec3(1.0, 0.0, 0.0),
-        vec3(1.0, 0.0, 0.0),
-        vec3(1.0, 0.0, 0.0),
-        vec3(1.0, 0.0, 0.0),
-    //  -----------------------
-        vec3(0.0,  1.0,  0.0),
-        vec3(0.0,  0.0,  1.0),
-        vec3(1.0,  0.0,  0.0),
-        vec3(0.0,  1.0,  0.0),
-    };
-
-    vec3* triangle_shape = new vec3[3] {
-        vec3(-0.5, -0.5, 0.0),
-        vec3(0.5, -0.5, 0.0),
-        vec3(0.0, 0.5, 0.0)
-    };
     vec3* triangle_color = new vec3[3] {
         vec3(1.0, 0.0, 0.0),
         vec3(0.0, 1.0, 0.0),
         vec3(0.0, 0.0, 1.0)
     };
 
-    unsigned int cube_indices[36] = {
-        0, 1, 2,    2, 3, 0,
-        0, 5, 4,    4, 3, 0,
-        0, 5, 6,    6, 0, 1,
-        1, 6, 2,    6, 2, 7,
-        7, 4, 6,    6, 5, 4,
-        4, 3, 7,    7, 2, 3
-    };
-    //Primitive myCube(36, cube_shape, cube_indices, cube_color, vec3(0.0, 0.0, 0.0));
     Triangle myTriangle(triangle_color, vec3(0.0, 0.0, 0.0));
 
     myShader.Use();
